@@ -2,10 +2,14 @@
   "name": "js-http-status",
   "version": "0.1.0",
   "description": "[![License][license-badge]][license-url]",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "lint": "yarn eslint src/**/*.js",
-    "test": "jest"
+    "clean": "rimraf lib dist",
+    "build": "babel src --out-dir lib",
+    "build:umd": "NODE_ENV=production webpack src/index.js",
+    "lint": "eslint src",
+    "test": "jest",
+    "prepublish": "yarn lint && yarn test && yarn clean && yarn build && yarn build:umd"
   },
   "repository": {
     "type": "git",
@@ -19,14 +23,20 @@
   },
   "homepage": "https://github.com/codevor/js-http-status#readme",
   "devDependencies": {
+    "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-import": "^2.18.2",
     "husky": "^3.0.9",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "rimraf": "^3.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
   }
 }
