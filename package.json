@@ -1,0 +1,20 @@
+{
+  "name": "js-http-status",
+  "version": "0.1.0",
+  "description": "[![License][license-badge]][license-url]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codevor/js-http-status.git"
+  },
+  "keywords": [],
+  "author": "Helder Burato Berto <helder.burato@gmail.com> (https://helder.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codevor/js-http-status/issues"
+  },
+  "homepage": "https://github.com/codevor/js-http-status#readme"
+}
