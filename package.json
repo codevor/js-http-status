@@ -4,6 +4,7 @@
   "description": "[![License][license-badge]][license-url]",
   "main": "index.js",
   "scripts": {
+    "lint": "yarn eslint src/**/*.js",
     "test": "jest"
   },
   "repository": {
