@@ -1,0 +1,6 @@
+{
+  "hooks": {
+    "pre-commit": "yarn eslint",
+    "pre-push": "yarn eslint && yarn test"
+  }
+}
