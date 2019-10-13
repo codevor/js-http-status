@@ -30,7 +30,7 @@ Report bugs or do suggestions using the [issues](https://github.com/codevor/js-h
 
 ## License
 
-[MIT License](LICENSE) © [Brusher Bits](https://github.com/codevor)
+[MIT License](LICENSE) © [Codevor](https://github.com/codevor)
 
 [license-badge]: https://img.shields.io/github/license/codevor/js-http-status.svg
 [license-url]: https://opensource.org/licenses/MIT
