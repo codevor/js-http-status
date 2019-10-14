@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf lib dist",
     "build": "babel src --out-dir lib",
-    "build:umd": "NODE_ENV=production webpack src/index.js",
+    "build:umd": "NODE_ENV=production webpack src/*.js",
     "lint": "eslint src",
     "test": "jest",
     "prepublish": "yarn lint && yarn test && yarn clean && yarn build && yarn build:umd"

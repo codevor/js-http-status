@@ -7,28 +7,28 @@ const mode = isProduction ? 'production' : 'development';
 module.exports = {
   mode,
   entry: {
-    main: path.resolve(__dirname, 'src/index.js'),
+    'bundle.js': [path.resolve(__dirname, 'src/*.js')]
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: isProduction ? 'http-status.min.js' : 'http-status.js',
     library: 'HttpStatus',
-    libraryTarget: 'umd',
+    libraryTarget: 'umd'
   },
   module: {
     rules: [
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        exclude: /node_modules/,
+        exclude: /node_modules/
       }
     ]
   },
   optimization: {
     minimize: isProduction,
-    minimizer: [new UglifyJsPlugin()]
+    minimizer: [new UglifyJsPlugin({ include: /\.min\.js$/ })]
   },
   resolve: {
-    extensions: [".js"]
+    extensions: ['.js']
   }
 };
