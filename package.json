@@ -4,12 +4,13 @@
   "description": "[![License][license-badge]][license-url]",
   "main": "lib/index.js",
   "scripts": {
-    "clean": "rimraf lib dist",
-    "build": "babel src --out-dir lib",
-    "build:umd": "NODE_ENV=production webpack src/*.js",
-    "lint": "eslint src",
-    "test": "jest",
-    "prepublish": "yarn lint && yarn test && yarn clean && yarn build && yarn build:umd"
+    "clean": "rimraf dist",
+    "dev": "NODE_ENV=dev webpack --progress --colors --watch",
+    "build": "NODE_ENV=production webpack",
+    "lint": "eslint src tests",
+    "test": "jest --coverage --expand",
+    "test:watch": "jest --watch",
+    "prepublish": "yarn lint && yarn test && yarn clean && yarn build"
   },
   "repository": {
     "type": "git",

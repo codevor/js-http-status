@@ -1,5 +1,5 @@
 function isCreated(status) {
-  return status === 200;
+  return status === 201;
 }
 
 export default isCreated;
