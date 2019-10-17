@@ -1,6 +1,6 @@
 # JS HTTP Status
 
-[![License][license-badge]][license-url] [![Coverage Status](https://coveralls.io/repos/github/codevor/js-http-status/badge.svg?branch=master)](https://coveralls.io/github/codevor/js-http-status?branch=master)
+[![License][license-badge]][license-url]
 
 > A simple way to catch HTTP statuses with JavaScript.
 
