@@ -4,12 +4,14 @@
   "description": "[![License][license-badge]][license-url]",
   "main": "lib/index.js",
   "scripts": {
-    "clean": "rimraf lib dist",
-    "build": "babel src --out-dir lib",
-    "build:umd": "NODE_ENV=production webpack src/index.js",
-    "lint": "eslint src",
-    "test": "jest",
-    "prepublish": "yarn lint && yarn test && yarn clean && yarn build && yarn build:umd"
+    "clean": "rimraf dist",
+    "dev": "NODE_ENV=dev webpack --progress --colors --watch",
+    "build": "NODE_ENV=production webpack",
+    "lint": "eslint src tests",
+    "test": "jest --coverage --expand",
+    "test:watch": "jest --watch",
+    "prepublish": "yarn lint && yarn test && yarn clean && yarn build",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,7 @@
     "@babel/preset-env": "^7.6.3",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
+    "coveralls": "^3.0.7",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.4.0",
