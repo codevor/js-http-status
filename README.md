@@ -1,6 +1,6 @@
 # JS HTTP Status
 
-[![License][license-badge]][license-url]
+[![License][license-badge]][license-url] [![Coverage Status][coverage-badge]][coverage-url]
 
 > A simple way to catch HTTP statuses with JavaScript.
 
@@ -34,3 +34,5 @@ Report bugs or do suggestions using the [issues](https://github.com/codevor/js-h
 
 [license-badge]: https://img.shields.io/github/license/codevor/js-http-status.svg
 [license-url]: https://opensource.org/licenses/MIT
+[coverage-badge]: https://coveralls.io/repos/github/codevor/js-http-status/badge.svg?branch=master
+[coverage-url]: https://coveralls.io/github/codevor/js-http-status?branch=master
