@@ -6,11 +6,31 @@
 
 ## Installation
 
-> Under Construction
+<!-- js-http-status is available on npm/yarn:
+
+```bash
+$ npm install js-http-status --save
+$ yarn add js-http-status
+``` -->
+
+> Under construction
 
 ## Usage
 
-> Under Construction
+With ES6/import
+
+```js
+import { findHttpStatus, isCreated, isOk } from 'js-http-status';
+
+findHttpStatus(200);
+// => { code: 200, key: 'OK', message: 'OK', category: 'SUCCESS' }
+
+findHttpStatus('TOO_MANY_REQUESTS', 'key');
+// => { code: 429, key: 'TOO_MANY_REQUESTS', message: 'Too Many Requests', category: 'CLIENT_ERROR' }
+
+isCreated(201); // => true
+isCreated(500); // => false
+```
 
 ## Contributing
 
