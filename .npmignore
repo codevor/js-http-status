@@ -1,5 +1,8 @@
 .DS_Store
 *.log
 src
-__tests__
+tests
 coverage
+.editorconfig
+.travis.yml
+.github
