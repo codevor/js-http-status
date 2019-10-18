@@ -6,7 +6,6 @@ const mode = isProduction ? 'production' : 'development';
 
 module.exports = {
   mode,
-  devtool: 'source-map',
   entry: {
     app: path.resolve(__dirname, 'src/index.js')
   },
@@ -21,7 +20,12 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        loader: 'babel-loader',
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env']
+          }
+        },
         exclude: /node_modules/
       }
     ]
@@ -30,6 +34,7 @@ module.exports = {
     minimize: isProduction,
     minimizer: [
       new UglifyJsPlugin({
+        sourceMap: true,
         include: /\.min\.js$/
       })
     ]
