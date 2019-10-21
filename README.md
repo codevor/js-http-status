@@ -22,14 +22,14 @@ With ES6/import
 ```js
 import { findHttpStatus, isCreated, isOk } from 'js-http-status';
 
-findHttpStatus(200);
+findStatusByCode(200);
 // => { code: 200, key: 'OK', message: 'OK', category: 'SUCCESS' }
 
-findHttpStatus('TOO_MANY_REQUESTS', 'key');
+findStatusByKey('TOO_MANY_REQUESTS');
 // => { code: 429, key: 'TOO_MANY_REQUESTS', message: 'Too Many Requests', category: 'CLIENT_ERROR' }
 
 isCreated(201); // => true
-isCreated(500); // => false
+isCreated(500); // => HTTPStatusError: Expected a 201 response.
 ```
 
 ## Contributing
