@@ -1,4 +1,4 @@
-export { default as findStatus } from './utils/find-status';
+export { default as findStatus } from './utils/find-status/index';
 export {
   default as findStatusByCode
 } from './utils/find-status/find-status-by-code';
