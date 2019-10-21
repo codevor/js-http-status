@@ -4,9 +4,7 @@
     "dictionaries": ["jsdoc"]
   },
   "source": {
-    "include": ["src", "package.json", "README.md"],
-    "includePattern": ".js$",
-    "excludePattern": "(node_modules/|docs)"
+    "include": ["src/", "./README.md"]
   },
   "plugins": ["plugins/markdown"],
   "templates": {
@@ -19,6 +17,30 @@
     "destination": "./docs/",
     "encoding": "utf8",
     "private": true,
-    "recurse": true
+    "recurse": true,
+    "verbose": true
+  },
+  "docdash": {
+    "static": true,
+    "sort": true,
+    "disqus": "",
+    "meta": {
+      "title": "js-http-status",
+      "description": "A simple way to catch HTTP statuses with JavaScript..",
+      "keyword": "jsdoc, docdash"
+    },
+    "search": true,
+    "collapse": true,
+    "typedefs": true,
+    "removeQuotes": "none",
+    "scripts": [],
+    "menu": {
+      "Github repo": {
+        "href": "https://github.com/codevor/js-http-status",
+        "target": "_blank",
+        "class": "menu-item",
+        "id": "repository"
+      }
+    }
   }
 }
