@@ -1,8 +1,8 @@
 {
   "name": "js-http-status",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "[![License][license-badge]][license-url]",
-  "main": "src/index.js",
+  "main": "dist/index",
   "scripts": {
     "commit": "git-cz",
     "clean": "rimraf dist",

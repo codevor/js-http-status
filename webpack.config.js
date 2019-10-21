@@ -11,7 +11,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: isProduction ? 'http-status.min.js' : 'http-status.js',
+    filename: 'index.js',
     library: 'js-http-status',
     libraryTarget: 'umd',
     umdNamedDefine: true,
