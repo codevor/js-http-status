@@ -1,7 +1,7 @@
 sudo: false
 language: node_js
 node_js:
-  - '8'
+  - '10'
 branches:
   only:
     - master
@@ -9,7 +9,7 @@ cache:
   directories:
     - node_modules
 install:
-  - yarn
+  - yarn --ignore-engines
 script:
   - yarn test
   - yarn coveralls
