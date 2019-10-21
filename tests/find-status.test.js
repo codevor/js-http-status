@@ -1,8 +1,8 @@
-import { findHttpStatus } from '../src';
+import { findStatusByCode, findStatusByKey } from '../src';
 
-describe('findHttpStatus', () => {
-  test('it should find http status by code', () => {
-    const found = findHttpStatus(200);
+describe('findStatus', () => {
+  test('it should find HTTP status by code', () => {
+    const found = findStatusByCode(200);
     const mockResponse = {
       code: 200,
       key: 'OK',
@@ -13,8 +13,8 @@ describe('findHttpStatus', () => {
     expect(found).toEqual(mockResponse);
   });
 
-  test('it should find http status by key', () => {
-    const found = findHttpStatus('TOO_MANY_REQUESTS', 'key');
+  test('it should find HTTP status by key', () => {
+    const found = findStatusByKey('TOO_MANY_REQUESTS', 'key');
     const mockResponse = {
       code: 429,
       key: 'TOO_MANY_REQUESTS',
