@@ -1,6 +1,6 @@
 {
   "name": "js-http-status",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "[![License][license-badge]][license-url]",
   "main": "src/index.js",
   "scripts": {
