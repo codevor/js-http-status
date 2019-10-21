@@ -1,7 +1,7 @@
 import { isCreated } from '../src';
 
 describe('isCreated', () => {
-  test('it should test isCreated status equal 201', () => {
+  test('it should receive true when pass status 201', () => {
     expect(isCreated(201)).toBeTruthy();
   });
 

@@ -1,8 +1,14 @@
-import validateHttpStatus from './validate-http-status';
+import validateHttpStatus from './utils/validate-http-status';
 
-function isCreated(status) {
-  const EXPECTED_STATUS = 201;
-  return validateHttpStatus(status, EXPECTED_STATUS);
+/**
+ * Validate HTTP Status code 201 type SUCCESS
+ *
+ * @param {integer} statusCode - The HTTP Status code
+ * @throws {HTTPStatusError} Will throw an error if the @param {statusCode} is different then 201
+ * @return {boolean}
+ */
+function isCreated(statusCode) {
+  return validateHttpStatus(statusCode, 201);
 }
 
 export default isCreated;
