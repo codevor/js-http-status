@@ -1,11 +1,13 @@
 import validateHttpStatus from './utils/validate-http-status';
 
 /**
+ * @module isOk
+ * @description
  * Validate HTTP Status code 200 type SUCCESS
  *
- * @param {integer} statusCode - The HTTP Status code
- * @throws {HTTPStatusError} Will throw an error if the @param {statusCode} is different then 200
- * @return {boolean}
+ * @param {Integer} statusCode - The HTTP Status code
+ * @return {Boolean}
+ * @throws {HTTPStatusError}  When the statusCode is different then 200
  */
 function isOk(statusCode) {
   return validateHttpStatus(statusCode, 200);
