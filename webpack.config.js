@@ -12,9 +12,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: isProduction ? 'http-status.min.js' : 'http-status.js',
-    library: 'HttpStatus',
+    library: 'js-http-status',
     libraryTarget: 'umd',
-    umdNamedDefine: true
+    umdNamedDefine: true,
+    globalObject: 'this'
   },
   module: {
     rules: [

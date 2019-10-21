@@ -1,8 +1,8 @@
 {
   "name": "js-http-status",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "[![License][license-badge]][license-url]",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
     "clean": "rimraf dist",
@@ -20,7 +20,13 @@
     "type": "git",
     "url": "git+https://github.com/codevor/js-http-status.git"
   },
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "es6",
+    "library",
+    "http-status",
+    "js-http-status"
+  ],
   "author": "Helder Burato Berto <helder.burato@gmail.com> (https://helder.dev/)",
   "license": "MIT",
   "bugs": {
