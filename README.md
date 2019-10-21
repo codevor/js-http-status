@@ -6,14 +6,12 @@
 
 ## Installation
 
-<!-- js-http-status is available on npm/yarn:
+js-http-status is available on npm/yarn:
 
 ```bash
 $ npm install js-http-status --save
 $ yarn add js-http-status
-``` -->
-
-> Under construction
+```
 
 ## Usage
 
