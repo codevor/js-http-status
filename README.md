@@ -18,7 +18,12 @@ $ yarn add js-http-status
 With ES6/import
 
 ```js
-import { findHttpStatus, isCreated, isOk } from 'js-http-status';
+import {
+  findStatusByCode,
+  findStatusByKey,
+  isCreated,
+  isOk
+} from 'js-http-status';
 
 findStatusByCode(200);
 // => { code: 200, key: 'OK', message: 'OK', category: 'SUCCESS' }
