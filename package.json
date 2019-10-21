@@ -4,6 +4,7 @@
   "description": "[![License][license-badge]][license-url]",
   "main": "lib/index.js",
   "scripts": {
+    "commit": "git-cz",
     "clean": "rimraf dist",
     "dev": "NODE_ENV=dev webpack --progress --colors --watch",
     "build": "NODE_ENV=production webpack",
@@ -12,7 +13,8 @@
     "test:watch": "jest --watch",
     "prepublish": "yarn lint && yarn test && yarn clean && yarn build",
     "coveralls": "cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
-    "generate-docs": "jsdoc --configure .jsdocrc --verbose -r"
+    "copy-docs": "cp -rf docs/js-http-status/**/* ./docs",
+    "generate-docs": "jsdoc --configure .jsdocrc --verbose -r && yarn copy-docs"
   },
   "repository": {
     "type": "git",
@@ -31,7 +33,9 @@
     "@babel/preset-env": "^7.6.3",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
+    "commitizen": "^4.0.3",
     "coveralls": "^3.0.7",
+    "cz-conventional-changelog": "3.0.2",
     "docdash": "^1.1.1",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
@@ -44,5 +48,10 @@
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.41.1",
     "webpack-cli": "^3.3.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
