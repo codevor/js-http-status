@@ -13,7 +13,8 @@
     "test:watch": "jest --watch",
     "prepublish": "yarn lint && yarn test && yarn clean && yarn build",
     "coveralls": "cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
-    "generate-docs": "jsdoc --configure .jsdocrc --verbose -r"
+    "copy-docs": "cp -rf docs/js-http-status/**/* ./docs",
+    "generate-docs": "jsdoc --configure .jsdocrc --verbose -r && yarn copy-docs"
   },
   "repository": {
     "type": "git",
