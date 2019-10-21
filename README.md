@@ -1,6 +1,6 @@
 # JS HTTP Status
 
-[![License][license-badge]][license-url] [![Travis CI][travis-badge]][travis-url] [![Coverage Status][coverage-badge]][coverage-url]
+[![License][license-badge]][license-url] [![Travis CI][travis-badge]][travis-url] [![Coverage Status][coverage-badge]][coverage-url] [![Commitizen][commitizen-badge]][commitizen-url]
 
 > A simple way to catch HTTP statuses with JavaScript.
 
@@ -58,3 +58,5 @@ Report bugs or do suggestions using the [issues](https://github.com/codevor/js-h
 [coverage-url]: https://coveralls.io/github/codevor/js-http-status?branch=master
 [travis-badge]: https://travis-ci.org/codevor/js-http-status.svg?branch=master
 [travis-url]: https://travis-ci.org/codevor/js-http-status
+[commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
+[commitizen-url]: http://commitizen.github.io/cz-cli/
