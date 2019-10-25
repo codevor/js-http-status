@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isSeeOther
  * @description
  * Validate HTTP Status code 303 type REDIRECTION
  *

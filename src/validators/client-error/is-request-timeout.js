@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isRequestTimeout
  * @description
  * Validate HTTP Status code 408 type CLIENT ERROR
  *

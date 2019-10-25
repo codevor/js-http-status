@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isResetContent
  * @description
  * Validate HTTP Status code 205 type SUCCESS
  *

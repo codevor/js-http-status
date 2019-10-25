@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isConnectionClosedWithoutResponse
  * @description
  * Validate HTTP Status code 444 type CLIENT ERROR
  *

@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isCreated
  * @description
  * Validate HTTP Status code 201 type SUCCESS
  *

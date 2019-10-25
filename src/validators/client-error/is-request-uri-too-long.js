@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isRequestUriTooLong
  * @description
  * Validate HTTP Status code 414 type CLIENT ERROR
  *

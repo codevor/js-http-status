@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isImTeapot
  * @description
  * Validate HTTP Status code 418 type CLIENT ERROR
  *

@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isMethodNotAllowed
  * @description
  * Validate HTTP Status code 405 type CLIENT ERROR
  *

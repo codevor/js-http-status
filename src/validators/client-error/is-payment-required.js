@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isPaymentRequired
  * @description
  * Validate HTTP Status code 402 type CLIENT ERROR
  *

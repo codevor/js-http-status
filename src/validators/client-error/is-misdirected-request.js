@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isMisdirectedRequest
  * @description
  * Validate HTTP Status code 421 type CLIENT ERROR
  *

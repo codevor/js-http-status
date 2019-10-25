@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isBadRequest
  * @description
  * Validate HTTP Status code 400 type CLIENT ERROR
  *

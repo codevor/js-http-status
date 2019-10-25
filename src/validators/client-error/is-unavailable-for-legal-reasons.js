@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isUnavailableForLegalReasons
  * @description
  * Validate HTTP Status code 451 type CLIENT ERROR
  *

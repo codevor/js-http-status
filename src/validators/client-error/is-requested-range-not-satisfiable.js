@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isRequestedRangeNotSatisfiable
  * @description
  * Validate HTTP Status code 416 type CLIENT ERROR
  *

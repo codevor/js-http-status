@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isPreconditionRequired
  * @description
  * Validate HTTP Status code 428 type CLIENT ERROR
  *

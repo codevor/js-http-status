@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isTooManyRequests
  * @description
  * Validate HTTP Status code 429 type CLIENT ERROR
  *

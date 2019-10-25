@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isServiceUnavailable
  * @description
  * Validate HTTP Status code 503 type SERVER ERROR
  *

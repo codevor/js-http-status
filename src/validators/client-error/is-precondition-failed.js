@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isPreconditionFailed
  * @description
  * Validate HTTP Status code 412 type CLIENT ERROR
  *

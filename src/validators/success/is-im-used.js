@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isImUsed
  * @description
  * Validate HTTP Status code 226 type SUCCESS
  *

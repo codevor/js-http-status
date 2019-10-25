@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isFound
  * @description
  * Validate HTTP Status code 302 type REDIRECTION
  *

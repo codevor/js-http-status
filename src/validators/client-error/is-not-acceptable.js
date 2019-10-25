@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isNotAcceptable
  * @description
  * Validate HTTP Status code 406 type CLIENT ERROR
  *

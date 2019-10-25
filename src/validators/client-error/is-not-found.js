@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isNotFound
  * @description
  * Validate HTTP Status code 404 type CLIENT ERROR
  *

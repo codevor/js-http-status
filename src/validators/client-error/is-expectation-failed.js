@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isExpectationFailed
  * @description
  * Validate HTTP Status code 417 type CLIENT ERROR
  *

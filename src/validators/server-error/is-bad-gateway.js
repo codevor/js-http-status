@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isBadGateway
  * @description
  * Validate HTTP Status code 502 type SERVER ERROR
  *

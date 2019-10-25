@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isContinue
  * @description
  * Validate HTTP Status code 100 type INFORMATIONAL
  *

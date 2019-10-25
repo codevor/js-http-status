@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isConflict
  * @description
  * Validate HTTP Status code 409 type CLIENT ERROR
  *

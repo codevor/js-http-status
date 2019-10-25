@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isVariantAlsoNegotiates
  * @description
  * Validate HTTP Status code 506 type SERVER ERROR
  *

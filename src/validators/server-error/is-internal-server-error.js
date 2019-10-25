@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isInternalServerError
  * @description
  * Validate HTTP Status code 500 type SERVER ERROR
  *

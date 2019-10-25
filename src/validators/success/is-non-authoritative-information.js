@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isNonAuthoritativeInformation
  * @description
  * Validate HTTP Status code 203 type SUCCESS
  *

@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isLoopDetected
  * @description
  * Validate HTTP Status code 508 type SERVER ERROR
  *

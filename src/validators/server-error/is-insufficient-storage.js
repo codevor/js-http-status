@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isInsufficientStorage
  * @description
  * Validate HTTP Status code 507 type SERVER ERROR
  *

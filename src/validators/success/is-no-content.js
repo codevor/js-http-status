@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isNoContent
  * @description
  * Validate HTTP Status code 204 type SUCCESS
  *

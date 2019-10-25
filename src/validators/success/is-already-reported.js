@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isAlreadyReported
  * @description
  * Validate HTTP Status code 208 type SUCCESS
  *

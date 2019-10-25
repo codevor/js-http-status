@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isMultipleChoices
  * @description
  * Validate HTTP Status code 300 type REDIRECTION
  *

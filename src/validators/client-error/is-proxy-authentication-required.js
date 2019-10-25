@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isProxyAuthenticationRequired
  * @description
  * Validate HTTP Status code 407 type CLIENT ERROR
  *

@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isNotImplemented
  * @description
  * Validate HTTP Status code 501 type SERVER ERROR
  *

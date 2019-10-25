@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isAccepted
  * @description
  * Validate HTTP Status code 202 type SUCCESS
  *

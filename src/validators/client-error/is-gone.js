@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isGone
  * @description
  * Validate HTTP Status code 410 type CLIENT ERROR
  *

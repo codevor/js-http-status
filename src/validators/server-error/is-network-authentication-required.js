@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isNetworkAuthenticationRequired
  * @description
  * Validate HTTP Status code 511 type SERVER ERROR
  *

@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isUpgradeRequired
  * @description
  * Validate HTTP Status code 426 type CLIENT ERROR
  *

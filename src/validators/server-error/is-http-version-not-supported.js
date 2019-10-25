@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isHttpVersionNotSupported
  * @description
  * Validate HTTP Status code 505 type SERVER ERROR
  *

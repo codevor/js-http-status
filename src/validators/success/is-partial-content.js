@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isPartialContent
  * @description
  * Validate HTTP Status code 206 type SUCCESS
  *

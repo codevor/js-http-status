@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isMovedPermanently
  * @description
  * Validate HTTP Status code 301 type REDIRECTION
  *

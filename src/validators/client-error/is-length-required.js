@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isLengthRequired
  * @description
  * Validate HTTP Status code 411 type CLIENT ERROR
  *

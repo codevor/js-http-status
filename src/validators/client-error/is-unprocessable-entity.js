@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isUnprocessableEntity
  * @description
  * Validate HTTP Status code 422 type CLIENT ERROR
  *

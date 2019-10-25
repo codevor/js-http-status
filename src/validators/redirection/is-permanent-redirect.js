@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isPermanentRedirect
  * @description
  * Validate HTTP Status code 308 type REDIRECTION
  *

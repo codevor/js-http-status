@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isPayloadTooLarge
  * @description
  * Validate HTTP Status code 413 type CLIENT ERROR
  *

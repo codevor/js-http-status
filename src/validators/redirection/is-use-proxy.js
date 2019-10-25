@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isUseproxy
  * @description
  * Validate HTTP Status code 305 type REDIRECTION
  *

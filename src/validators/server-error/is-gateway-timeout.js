@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isGatewayTimeout
  * @description
  * Validate HTTP Status code 504 type SERVER ERROR
  *

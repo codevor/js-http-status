@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isTemporaryRedirect
  * @description
  * Validate HTTP Status code 307 type REDIRECTION
  *

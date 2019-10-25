@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isLocked
  * @description
  * Validate HTTP Status code 423 type CLIENT ERROR
  *

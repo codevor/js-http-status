@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isProcessing
  * @description
  * Validate HTTP Status code 102 type INFORMATIONAL
  *

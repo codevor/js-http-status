@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isUnsupportedMediaType
  * @description
  * Validate HTTP Status code 415 type CLIENT ERROR
  *

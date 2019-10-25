@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isNotExtended
  * @description
  * Validate HTTP Status code 510 type SERVER ERROR
  *

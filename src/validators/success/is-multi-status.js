@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isMultiStatus
  * @description
  * Validate HTTP Status code 207 type SUCCESS
  *

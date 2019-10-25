@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isUnauthorized
  * @description
  * Validate HTTP Status code 401 type CLIENT ERROR
  *

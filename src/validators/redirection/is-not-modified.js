@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isNotModified
  * @description
  * Validate HTTP Status code 304 type REDIRECTION
  *

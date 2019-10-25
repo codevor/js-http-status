@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isSwitchingProtocols
  * @description
  * Validate HTTP Status code 101 type INFORMATIONAL
  *

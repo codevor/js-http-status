@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isForbidden
  * @description
  * Validate HTTP Status code 403 type CLIENT ERROR
  *

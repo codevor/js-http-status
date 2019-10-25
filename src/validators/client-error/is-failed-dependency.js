@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isFailedDependency
  * @description
  * Validate HTTP Status code 424 type CLIENT ERROR
  *

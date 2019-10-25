@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isNetworkConnectTimeoutError
  * @description
  * Validate HTTP Status code 599 type SERVER ERROR
  *

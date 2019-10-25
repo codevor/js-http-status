@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isClientClosedRequest
  * @description
  * Validate HTTP Status code 499 type CLIENT ERROR
  *

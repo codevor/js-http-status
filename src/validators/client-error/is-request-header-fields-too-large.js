@@ -1,7 +1,6 @@
 import validateHttpStatus from '../validate-http-status';
 
 /**
- * @module isRequestHeaderFieldsTooLarge
  * @description
  * Validate HTTP Status code 431 type CLIENT ERROR
  *
