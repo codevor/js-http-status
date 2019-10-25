@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>validators/redirection/is-not-modified.js - js-http-status</title>
+    
+    <meta name="description" content="A simple way to catch HTTP statuses with JavaScript.." />
+    
+        <meta name="keywords" content="jsdoc, docdash" />
+        <meta name="keyword" content="jsdoc, docdash" />
+    
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/codevor/js-http-status" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Classes</h3><ul><li><a href="HTTPStatusError.html">HTTPStatusError</a></li></ul><h3>Global</h3><ul><li><a href="global.html#findHttpStatus">findHttpStatus</a></li><li><a href="global.html#findStatusByCode">findStatusByCode</a></li><li><a href="global.html#findStatusByKey">findStatusByKey</a></li><li><a href="global.html#isAccepted">isAccepted</a></li><li><a href="global.html#isAlreadyReported">isAlreadyReported</a></li><li><a href="global.html#isBadGateway">isBadGateway</a></li><li><a href="global.html#isBadRequest">isBadRequest</a></li><li><a href="global.html#isClientClosedRequest">isClientClosedRequest</a></li><li><a href="global.html#isConflict">isConflict</a></li><li><a href="global.html#isConnectionClosedWithoutResponse">isConnectionClosedWithoutResponse</a></li><li><a href="global.html#isContinue">isContinue</a></li><li><a href="global.html#isCreated">isCreated</a></li><li><a href="global.html#isExpectationFailed">isExpectationFailed</a></li><li><a href="global.html#isFailedDependency">isFailedDependency</a></li><li><a href="global.html#isForbidden">isForbidden</a></li><li><a href="global.html#isFound">isFound</a></li><li><a href="global.html#isGatewayTimeout">isGatewayTimeout</a></li><li><a href="global.html#isGone">isGone</a></li><li><a href="global.html#isHttpVersionNotSupported">isHttpVersionNotSupported</a></li><li><a href="global.html#isImTeapot">isImTeapot</a></li><li><a href="global.html#isImUsed">isImUsed</a></li><li><a href="global.html#isInsufficientStorage">isInsufficientStorage</a></li><li><a href="global.html#isInternalServerError">isInternalServerError</a></li><li><a href="global.html#isLengthRequired">isLengthRequired</a></li><li><a href="global.html#isLocked">isLocked</a></li><li><a href="global.html#isLoopDetected">isLoopDetected</a></li><li><a href="global.html#isMethodNotAllowed">isMethodNotAllowed</a></li><li><a href="global.html#isMisdirectedRequest">isMisdirectedRequest</a></li><li><a href="global.html#isMovedPermanently">isMovedPermanently</a></li><li><a href="global.html#isMultipleChoices">isMultipleChoices</a></li><li><a href="global.html#isMultiStatus">isMultiStatus</a></li><li><a href="global.html#isNetworkAuthenticationRequired">isNetworkAuthenticationRequired</a></li><li><a href="global.html#isNetworkConnectTimeoutError">isNetworkConnectTimeoutError</a></li><li><a href="global.html#isNoContent">isNoContent</a></li><li><a href="global.html#isNonAuthoritativeInformation">isNonAuthoritativeInformation</a></li><li><a href="global.html#isNotAcceptable">isNotAcceptable</a></li><li><a href="global.html#isNotExtended">isNotExtended</a></li><li><a href="global.html#isNotFound">isNotFound</a></li><li><a href="global.html#isNotImplemented">isNotImplemented</a></li><li><a href="global.html#isNotModified">isNotModified</a></li><li><a href="global.html#isOk">isOk</a></li><li><a href="global.html#isPartialContent">isPartialContent</a></li><li><a href="global.html#isPayloadTooLarge">isPayloadTooLarge</a></li><li><a href="global.html#isPaymentRequired">isPaymentRequired</a></li><li><a href="global.html#isPermanentRedirect">isPermanentRedirect</a></li><li><a href="global.html#isPreconditionFailed">isPreconditionFailed</a></li><li><a href="global.html#isPreconditionRequired">isPreconditionRequired</a></li><li><a href="global.html#isProcessing">isProcessing</a></li><li><a href="global.html#isProxyAuthenticationRequired">isProxyAuthenticationRequired</a></li><li><a href="global.html#isRequestedRangeNotSatisfiable">isRequestedRangeNotSatisfiable</a></li><li><a href="global.html#isRequestHeaderFieldsTooLarge">isRequestHeaderFieldsTooLarge</a></li><li><a href="global.html#isRequestTimeout">isRequestTimeout</a></li><li><a href="global.html#isRequestUriTooLong">isRequestUriTooLong</a></li><li><a href="global.html#isResetContent">isResetContent</a></li><li><a href="global.html#isSeeOther">isSeeOther</a></li><li><a href="global.html#isServiceUnavailable">isServiceUnavailable</a></li><li><a href="global.html#isSwitchingProtocols">isSwitchingProtocols</a></li><li><a href="global.html#isTemporaryRedirect">isTemporaryRedirect</a></li><li><a href="global.html#isTooManyRequests">isTooManyRequests</a></li><li><a href="global.html#isUnauthorized">isUnauthorized</a></li><li><a href="global.html#isUnavailableForLegalReasons">isUnavailableForLegalReasons</a></li><li><a href="global.html#isUnprocessableEntity">isUnprocessableEntity</a></li><li><a href="global.html#isUnsupportedMediaType">isUnsupportedMediaType</a></li><li><a href="global.html#isUpgradeRequired">isUpgradeRequired</a></li><li><a href="global.html#isUseproxy">isUseproxy</a></li><li><a href="global.html#isVariantAlsoNegotiates">isVariantAlsoNegotiates</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">validators/redirection/is-not-modified.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import validateHttpStatus from '../validate-http-status';
+
+/**
+ * @description
+ * Validate HTTP Status code 304 type REDIRECTION
+ *
+ * @param {Integer} statusCode - The HTTP Status code
+ * @return {Boolean}
+ * @throws {HTTPStatusError}  When the statusCode is different then 304
+ */
+function isNotModified(statusCode) {
+  return validateHttpStatus(statusCode, 304);
+}
+
+export default isNotModified;
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Fri Oct 25 2019 13:41:35 GMT-0300 (Brasilia Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>
