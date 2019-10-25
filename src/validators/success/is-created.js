@@ -1,4 +1,4 @@
-import validateHttpStatus from './utils/validate-http-status';
+import validateHttpStatus from '../validate-http-status';
 
 /**
  * @module isCreated
