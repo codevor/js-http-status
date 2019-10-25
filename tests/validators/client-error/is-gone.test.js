@@ -1,14 +1,14 @@
-import { isUnauthorized } from '../../../src';
+import { isGone } from '../../../src';
 
-describe('Validators: isUnauthorized (type client error)', () => {
-  const STATUS_EXPECTED = 401;
+describe('Validators: isGone (type client error)', () => {
+  const STATUS_EXPECTED = 410;
 
   test(`it should receive true when pass status ${STATUS_EXPECTED}`, () => {
-    expect(isUnauthorized(STATUS_EXPECTED)).toBeTruthy();
+    expect(isGone(STATUS_EXPECTED)).toBeTruthy();
   });
 
   test(`it should throw Error when pass status different than ${STATUS_EXPECTED}`, () => {
-    const received = isUnauthorized(300);
+    const received = isGone(300);
     expect(received.message).toBe(`Expected a ${STATUS_EXPECTED} response.`);
   });
 });

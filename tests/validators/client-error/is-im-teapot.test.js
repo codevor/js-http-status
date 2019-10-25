@@ -1,14 +1,14 @@
-import { isUnauthorized } from '../../../src';
+import { isImTeapot } from '../../../src';
 
-describe('Validators: isUnauthorized (type client error)', () => {
-  const STATUS_EXPECTED = 401;
+describe('Validators: isImTeapot (type client error)', () => {
+  const STATUS_EXPECTED = 418;
 
   test(`it should receive true when pass status ${STATUS_EXPECTED}`, () => {
-    expect(isUnauthorized(STATUS_EXPECTED)).toBeTruthy();
+    expect(isImTeapot(STATUS_EXPECTED)).toBeTruthy();
   });
 
   test(`it should throw Error when pass status different than ${STATUS_EXPECTED}`, () => {
-    const received = isUnauthorized(300);
+    const received = isImTeapot(300);
     expect(received.message).toBe(`Expected a ${STATUS_EXPECTED} response.`);
   });
 });

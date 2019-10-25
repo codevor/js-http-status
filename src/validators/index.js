@@ -40,7 +40,74 @@ export {
 } from './redirection/is-permanent-redirect';
 
 // 4×× Client Error
+export { default as isBadRequest } from './client-error/is-bad-request';
+export {
+  default as isClientClosedRequest
+} from './client-error/is-client-closed-request';
+export { default as isConflict } from './client-error/is-conflict';
+export {
+  default as isConnectionClosedWithoutResponse
+} from './client-error/is-connection-closed-without-response';
+export {
+  default as isExpectationFailed
+} from './client-error/is-expectation-failed';
+export {
+  default as isFailedDependency
+} from './client-error/is-failed-dependency';
+export { default as isForbidden } from './client-error/is-forbidden';
+export { default as isGone } from './client-error/is-gone';
+export { default as isImTeapot } from './client-error/is-im-teapot';
+export { default as isLengthRequired } from './client-error/is-length-required';
+export { default as isLocked } from './client-error/is-locked';
+export {
+  default as isMethodNotAllowed
+} from './client-error/is-method-not-allowed';
+export {
+  default as isMisdirectedRequest
+} from './client-error/is-misdirected-request';
+export { default as isNotAcceptable } from './client-error/is-not-acceptable';
+export { default as isNotFound } from './client-error/is-not-found';
+export {
+  default as isPayloadTooLarge
+} from './client-error/is-payload-too-large';
+export {
+  default as isPaymentRequired
+} from './client-error/is-payment-required';
+export {
+  default as isPreconditionFailed
+} from './client-error/is-precondition-failed';
+export {
+  default as isPreconditionRequired
+} from './client-error/is-precondition-required';
+export {
+  default as isProxyAuthenticationRequired
+} from './client-error/is-proxy-authentication-required';
+export {
+  default as isRequestHeaderFieldsTooLarge
+} from './client-error/is-request-header-fields-too-large';
+export { default as isRequestTimeout } from './client-error/is-request-timeout';
+export {
+  default as isRequestUriTooLong
+} from './client-error/is-request-uri-too-long';
+export {
+  default as isRequestedRangeNotSatisfiable
+} from './client-error/is-requested-range-not-satisfiable';
+export {
+  default as isTooManyRequests
+} from './client-error/is-too-many-requests';
 export { default as isUnauthorized } from './client-error/is-unauthorized';
+export {
+  default as isUnavailableForLegalReasons
+} from './client-error/is-unavailable-for-legal-reasons';
+export {
+  default as isUnprocessableEntity
+} from './client-error/is-unprocessable-entity';
+export {
+  default as isUnsupportedMediaType
+} from './client-error/is-unsupported-media-type';
+export {
+  default as isUpgradeRequired
+} from './client-error/is-upgrade-required';
 
 // 5×× Server Error
 export { default as isBadGateway } from './server-error/is-bad-gateway';
