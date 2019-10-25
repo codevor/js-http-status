@@ -20,6 +20,8 @@ $ yarn add js-http-status
 
 ## Usage
 
+Practice and learn [here](https://npm.runkit.com/js-http-status).
+
 With ES6/import
 
 ```js
