@@ -43,3 +43,29 @@ export {
 export { default as isUnauthorized } from './client-error/is-unauthorized';
 
 // 5×× Server Error
+export { default as isBadGateway } from './server-error/is-bad-gateway';
+export { default as isGatewayTimeout } from './server-error/is-gateway-timeout';
+export {
+  default as isHttpVersionNotSupported
+} from './server-error/is-http-version-not-supported';
+export {
+  default as isInsufficientStorage
+} from './server-error/is-insufficient-storage';
+export {
+  default as isInternalServerError
+} from './server-error/is-internal-server-error';
+export { default as isLoopDetected } from './server-error/is-loop-detected';
+export {
+  default as isNetworkAuthenticationRequired
+} from './server-error/is-network-authentication-required';
+export {
+  default as isNetworkConnectTimeoutError
+} from './server-error/is-network-connect-timeout-error';
+export { default as isNotExtended } from './server-error/is-not-extended';
+export { default as isNotImplemented } from './server-error/is-not-implemented';
+export {
+  default as isServiceUnavailable
+} from './server-error/is-service-unavailable';
+export {
+  default as isVariantAlsoNegotiates
+} from './server-error/is-variant-also-negotiates';
