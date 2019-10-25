@@ -20,11 +20,11 @@
     "url": "git+https://github.com/codevor/js-http-status.git"
   },
   "keywords": [
-    "javascript",
-    "es6",
-    "library",
     "http-status",
-    "js-http-status"
+    "http",
+    "statuses",
+    "js-http-status",
+    "validate"
   ],
   "author": "Helder Burato Berto <helder.burato@gmail.com> (https://helder.dev/)",
   "license": "MIT",
