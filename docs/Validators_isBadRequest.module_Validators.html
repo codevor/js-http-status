@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>Validators - js-http-status</title>
+    
+    <meta name="description" content="A simple way to catch HTTP statuses with JavaScript.." />
+    
+        <meta name="keywords" content="jsdoc, docdash" />
+        <meta name="keyword" content="jsdoc, docdash" />
+    
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/codevor/js-http-status" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Modules</h3><ul><li><a href="module-isAccepted.html">isAccepted</a></li><li><a href="module-isAlreadyReported.html">isAlreadyReported</a></li><li><a href="module-isBadGateway.html">isBadGateway</a></li><li><a href="module-isClientClosedRequest.html">isClientClosedRequest</a></li><li><a href="module-isConflict.html">isConflict</a></li><li><a href="module-isConnectionClosedWithoutResponse.html">isConnectionClosedWithoutResponse</a></li><li><a href="module-isContinue.html">isContinue</a></li><li><a href="module-isCreated.html">isCreated</a></li><li><a href="module-isExpectationFailed.html">isExpectationFailed</a></li><li><a href="module-isFailedDependency.html">isFailedDependency</a></li><li><a href="module-isForbidden.html">isForbidden</a></li><li><a href="module-isFound.html">isFound</a></li><li><a href="module-isGatewayTimeout.html">isGatewayTimeout</a></li><li><a href="module-isGone.html">isGone</a></li><li><a href="module-isHttpVersionNotSupported.html">isHttpVersionNotSupported</a></li><li><a href="module-isImTeapot.html">isImTeapot</a></li><li><a href="module-isImUsed.html">isImUsed</a></li><li><a href="module-isInsufficientStorage.html">isInsufficientStorage</a></li><li><a href="module-isInternalServerError.html">isInternalServerError</a></li><li><a href="module-isLengthRequired.html">isLengthRequired</a></li><li><a href="module-isLocked.html">isLocked</a></li><li><a href="module-isLoopDetected.html">isLoopDetected</a></li><li><a href="module-isMethodNotAllowed.html">isMethodNotAllowed</a></li><li><a href="module-isMisdirectedRequest.html">isMisdirectedRequest</a></li><li><a href="module-isMovedPermanently.html">isMovedPermanently</a></li><li><a href="module-isMultipleChoices.html">isMultipleChoices</a></li><li><a href="module-isMultiStatus.html">isMultiStatus</a></li><li><a href="module-isNetworkAuthenticationRequired.html">isNetworkAuthenticationRequired</a></li><li><a href="module-isNetworkConnectTimeoutError.html">isNetworkConnectTimeoutError</a></li><li><a href="module-isNoContent.html">isNoContent</a></li><li><a href="module-isNonAuthoritativeInformation.html">isNonAuthoritativeInformation</a></li><li><a href="module-isNotAcceptable.html">isNotAcceptable</a></li><li><a href="module-isNotExtended.html">isNotExtended</a></li><li><a href="module-isNotFound.html">isNotFound</a></li><li><a href="module-isNotImplemented.html">isNotImplemented</a></li><li><a href="module-isNotModified.html">isNotModified</a></li><li><a href="module-isOk.html">isOk</a></li><li><a href="module-isPartialContent.html">isPartialContent</a></li><li><a href="module-isPayloadTooLarge.html">isPayloadTooLarge</a></li><li><a href="module-isPaymentRequired.html">isPaymentRequired</a></li><li><a href="module-isPermanentRedirect.html">isPermanentRedirect</a></li><li><a href="module-isPreconditionFailed.html">isPreconditionFailed</a></li><li><a href="module-isPreconditionRequired.html">isPreconditionRequired</a></li><li><a href="module-isProcessing.html">isProcessing</a></li><li><a href="module-isProxyAuthenticationRequired.html">isProxyAuthenticationRequired</a></li><li><a href="module-isRequestedRangeNotSatisfiable.html">isRequestedRangeNotSatisfiable</a></li><li><a href="module-isRequestHeaderFieldsTooLarge.html">isRequestHeaderFieldsTooLarge</a></li><li><a href="module-isRequestTimeout.html">isRequestTimeout</a></li><li><a href="module-isRequestUriTooLong.html">isRequestUriTooLong</a></li><li><a href="module-isResetContent.html">isResetContent</a></li><li><a href="module-isSeeOther.html">isSeeOther</a></li><li><a href="module-isServiceUnavailable.html">isServiceUnavailable</a></li><li><a href="module-isSwitchingProtocols.html">isSwitchingProtocols</a></li><li><a href="module-isTemporaryRedirect.html">isTemporaryRedirect</a></li><li><a href="module-isTooManyRequests.html">isTooManyRequests</a></li><li><a href="module-isUnauthorized.html">isUnauthorized</a></li><li><a href="module-isUnavailableForLegalReasons.html">isUnavailableForLegalReasons</a></li><li><a href="module-isUnprocessableEntity.html">isUnprocessableEntity</a></li><li><a href="module-isUnsupportedMediaType.html">isUnsupportedMediaType</a></li><li><a href="module-isUpgradeRequired.html">isUpgradeRequired</a></li><li><a href="module-isUseproxy.html">isUseproxy</a></li><li><a href="module-isVariantAlsoNegotiates.html">isVariantAlsoNegotiates</a></li><li><a href="Validators_isBadRequest.module_Validators.html">Validators</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">Validators</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+</header>
+
+<article>
+    
+        <div class="container-overview">
+        
+            
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="client-error_is-bad-request.js.html">client-error/is-bad-request.js</a>, <a href="client-error_is-bad-request.js.html#line3">line 3</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+            
+                <div class="description"><p>Validate HTTP Status code 400 type CLIENT ERROR</p></div>
+            
+
+            
+        
+        </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+     
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Fri Oct 25 2019 12:38:47 GMT-0300 (Brasilia Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>
