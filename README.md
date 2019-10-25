@@ -18,6 +18,10 @@ $ npm install js-http-status --save
 $ yarn add js-http-status
 ```
 
+## Documentation
+
+[Access documentation clicking here](https://codevor.github.io/js-http-status/).
+
 ## Usage
 
 Practice and learn [here](https://npm.runkit.com/js-http-status).
