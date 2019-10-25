@@ -1,4 +1,4 @@
-import HTTPStatusError from './http-status-error';
+import HTTPStatusError from '../errors/http-status-error';
 
 function validateHttpStatus(status, expectedStatus) {
   try {
