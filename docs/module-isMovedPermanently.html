@@ -3,47 +3,69 @@
 <head>
     
     <meta charset="utf-8">
-    <title>isMovedPermanently - js-http-status</title>
-    
-    <meta name="description" content="A simple way to catch HTTP statuses with JavaScript.." />
-    
-        <meta name="keywords" content="jsdoc, docdash" />
-        <meta name="keyword" content="jsdoc, docdash" />
-    
-    
-    
-    <script src="scripts/prettify/prettify.js"></script>
-    <script src="scripts/prettify/lang-css.js"></script>
+    <title>JSDoc: isMovedPermanently</title>
+
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="./build/entry.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
-    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
-    <script src="scripts/nav.js" defer></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Muli:100,400,700|Oswald:300|Inconsolata,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/iframe.css">
 </head>
+
 <body>
-
-<input type="checkbox" id="nav-trigger" class="nav-trigger" />
-<label for="nav-trigger" class="navicon-button x">
-  <div class="navicon"></div>
-</label>
-
-<label for="nav-trigger" class="overlay"></label>
-
-<nav >
-    
-    <input type="text" id="nav-search" placeholder="Search" />
-    
-    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/codevor/js-http-status" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Modules</h3><ul><li><a href="module-isCreated.html">isCreated</a></li><li><a href="module-isMovedPermanently.html">isMovedPermanently</a></li><li><a href="module-isOk.html">isOk</a></li><li><a href="module-isUnauthorized.html">isUnauthorized</a></li></ul>
-</nav>
-
-<div id="main">
-    
-    <h1 class="page-title">isMovedPermanently</h1>
-    
-
-    
+    <div id="stickyNavbarOverlay"></div>
+    <div class="top-navbar">
+        <div class="container">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    
+                     
+                        <h1 class="navbar-item">Documentation: JS HTTP Status</h1>
+                    
+                    <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                 
+                <div class="navbar-menu">
+                    <div class="navbar-end">
+                    
+                        <div class="navbar-item">
+                            <a href="https://github.com/codevor/js-http-status" target="_blank">Github</a>
+                        </div>
+                    
+                    </div>
+                </div>
+                
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-3" id="sidebarNav">
+                <div class="sidebar">
+                    <nav>
+                        <h2><a href="index.html">Home</a></h2><div class="category"><h3>Modules</h3><ul><li><a href="module-isAccepted.html">isAccepted</a></li><li><a href="module-isAlreadyReported.html">isAlreadyReported</a></li><li><a href="module-isBadGateway.html">isBadGateway</a></li><li><a href="module-isContinue.html">isContinue</a></li><li><a href="module-isCreated.html">isCreated</a></li><li><a href="module-isFailedDependency.html">isFailedDependency</a></li><li><a href="module-isForbidden.html">isForbidden</a></li><li><a href="module-isFound.html">isFound</a></li><li><a href="module-isGatewayTimeout.html">isGatewayTimeout</a></li><li><a href="module-isGone.html">isGone</a></li><li><a href="module-isHttpVersionNotSupported.html">isHttpVersionNotSupported</a></li><li><a href="module-isImTeapot.html">isImTeapot</a></li><li><a href="module-isImUsed.html">isImUsed</a></li><li><a href="module-isInsufficientStorage.html">isInsufficientStorage</a></li><li><a href="module-isInternalServerError.html">isInternalServerError</a></li><li><a href="module-isLengthRequired.html">isLengthRequired</a></li><li><a href="module-isLocked.html">isLocked</a></li><li><a href="module-isLoopDetected.html">isLoopDetected</a></li><li><a href="module-isMethodNotAllowed.html">isMethodNotAllowed</a></li><li><a href="module-isMisdirectedRequest.html">isMisdirectedRequest</a></li><li><a href="module-isMovedPermanently.html">isMovedPermanently</a></li><li><a href="module-isMultipleChoices.html">isMultipleChoices</a></li><li><a href="module-isMultiStatus.html">isMultiStatus</a></li><li><a href="module-isNetworkAuthenticationRequired.html">isNetworkAuthenticationRequired</a></li><li><a href="module-isNetworkConnectTimeoutError.html">isNetworkConnectTimeoutError</a></li><li><a href="module-isNoContent.html">isNoContent</a></li><li><a href="module-isNonAuthoritativeInformation.html">isNonAuthoritativeInformation</a></li><li><a href="module-isNotAcceptable.html">isNotAcceptable</a></li><li><a href="module-isNotExtended.html">isNotExtended</a></li><li><a href="module-isNotFound.html">isNotFound</a></li><li><a href="module-isNotImplemented.html">isNotImplemented</a></li><li><a href="module-isNotModified.html">isNotModified</a></li><li><a href="module-isOk.html">isOk</a></li><li><a href="module-isPartialContent.html">isPartialContent</a></li><li><a href="module-isPayloadTooLarge.html">isPayloadTooLarge</a></li><li><a href="module-isPaymentRequired.html">isPaymentRequired</a></li><li><a href="module-isPermanentRedirect.html">isPermanentRedirect</a></li><li><a href="module-isPreconditionFailed.html">isPreconditionFailed</a></li><li><a href="module-isPreconditionRequired.html">isPreconditionRequired</a></li><li><a href="module-isProcessing.html">isProcessing</a></li><li><a href="module-isProxyAuthenticationRequired.html">isProxyAuthenticationRequired</a></li><li><a href="module-isRequestedRangeNotSatisfiable.html">isRequestedRangeNotSatisfiable</a></li><li><a href="module-isRequestHeaderFieldsTooLarge.html">isRequestHeaderFieldsTooLarge</a></li><li><a href="module-isRequestTimeout.html">isRequestTimeout</a></li><li><a href="module-isRequestUriTooLong.html">isRequestUriTooLong</a></li><li><a href="module-isResetContent.html">isResetContent</a></li><li><a href="module-isSeeOther.html">isSeeOther</a></li><li><a href="module-isServiceUnavailable.html">isServiceUnavailable</a></li><li><a href="module-isSwitchingProtocols.html">isSwitchingProtocols</a></li><li><a href="module-isTemporaryRedirect.html">isTemporaryRedirect</a></li><li><a href="module-isTooManyRequests.html">isTooManyRequests</a></li><li><a href="module-isUnauthorized.html">isUnauthorized</a></li><li><a href="module-isUnavailableForLegalReasons.html">isUnavailableForLegalReasons</a></li><li><a href="module-isUnprocessableEntity.html">isUnprocessableEntity</a></li><li><a href="module-isUnsupportedMediaType.html">isUnsupportedMediaType</a></li><li><a href="module-isUpgradeRequired.html">isUpgradeRequired</a></li><li><a href="module-isUseproxy.html">isUseproxy</a></li><li><a href="module-isVariantAlsoNegotiates.html">isVariantAlsoNegotiates</a></li></ul></div><div class="category"><h2>Validators</h2><h3>Global</h3><ul><li><a href="global.html#isBadRequest">isBadRequest</a></li><li><a href="global.html#isClientClosedRequest">isClientClosedRequest</a></li><li><a href="global.html#isConflict">isConflict</a></li><li><a href="global.html#isConnectionClosedWithoutResponse">isConnectionClosedWithoutResponse</a></li><li><a href="global.html#isExpectationFailed">isExpectationFailed</a></li></ul></div>
+                    </nav>
+                </div>
+            </div>
+            <div class="column is-9-desktop">
+                <div class="content" id="main-content-wrapper">
+                    <header class="page-title">
+                        <p>Module</p>
+                        <h1>isMovedPermanently</h1>
+                    </header>
+                    
+                    
 
 
 
@@ -59,63 +81,14 @@
 </header>
 
 <article>
+    <div class="container-overview">
     
-        <div class="container-overview">
+        
+            <div class="description"><p>Validate HTTP Status code 301 type REDIRECTION</p></div>
+        
+
         
             
-                <div class="description"><p>Validate HTTP Status code 301 type REDIRECTION</p></div>
-            
-
-            
-                
-
-
-
-
-<dl class="details">
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="is-moved-permanently.js.html">is-moved-permanently.js</a>, <a href="is-moved-permanently.js.html#line3">line 3</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
 
 
 
@@ -149,26 +122,28 @@
     <tbody>
     
 
-        <tr>
-            
-                <td class="name"><code>statusCode</code></td>
-            
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>statusCode</code></td>
+  
 
-            <td class="type">
-            
-                
+  <td class="type">
+  
+      
 <span class="param-type">Integer</span>
 
 
-            
-            </td>
+  
+  </td>
 
-            
+  
 
-            
+  
 
-            <td class="description last"><p>The HTTP Status code</p></td>
-        </tr>
+  <td class="description last"><p>The HTTP Status code</p></td>
+</tr>
+
 
     
     </tbody>
@@ -178,70 +153,116 @@
 
 
 
-
-
-
-
-
-
-
-
-
-<h5>Throws:</h5>
-
-        
-
-<dl>
-    <dt>
-        <div class="param-desc">
-        <p>When the statusCode is different then 301</p>
-        </div>
-    </dt>
-    <dd></dd>
-    <dt>
-        <dl class="param-type">
-            <dt>
-                Type
-            </dt>
-            <dd>
-                
-<span class="param-type">HTTPStatusError</span>
-
-
-            </dd>
-        </dl>
-    </dt>
-    <dd></dd>
-</dl>
-
+<dl class="details">
 
     
 
+    
 
-<h5>Returns:</h5>
+    
 
-        
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="redirection_is-moved-permanently.js.html" class="button">View Source</a>
+            <span>
+                <a href="redirection_is-moved-permanently.js.html">redirection/is-moved-permanently.js</a>, <a href="redirection_is-moved-permanently.js.html#line3">line 3</a>
+            </span>
+        </p>
+    
+</dl>
 
 
-<dl class="param-type">
-    <dt>
-        Type
-    </dt>
-    <dd>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Throws:</label></div>
+        <div class="column is-10">
+            
+                    
+<div class="columns">
+    
+    <div class='param-desc column is-7'><p>When the statusCode is different then 301</p></div>
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+<span class="param-type">HTTPStatusError</span>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
         
 <span class="param-type">Boolean</span>
 
 
-    </dd>
-</dl>
-
+    </div>
     
+</div>
 
-
-
-            
-        
+                
         </div>
+    </div>
+
+
+
+
+
+        
+    
+    </div>
+    
     
 
     
@@ -249,10 +270,8 @@
     
 
     
-    
-    
 
-     
+    
 
     
 
@@ -270,25 +289,22 @@
 
 
 
-    
-    
-</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<br class="clear">
-
-<footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Mon Oct 21 2019 08:43:27 GMT-0300 (Brasilia Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Fri Oct 25 2019 12:59:57 GMT-0300 (Brasilia Standard Time)</p>
+        <p class="sidebar-created-by">
+            <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by 
+            <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+        </p>
+    </div>
 </footer>
 
-<script>prettyPrint();</script>
-<script src="scripts/polyfill.js"></script>
-<script src="scripts/linenumber.js"></script>
-
-<script src="scripts/search.js" defer></script>
-
-
-<script src="scripts/collapse.js" defer></script>
-
-
+<script src="scripts/app.min.js"></script>
+<script src="scripts/linenumber.js"> </script>
 </body>
 </html>
