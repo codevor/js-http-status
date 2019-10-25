@@ -1,4 +1,4 @@
-import { isMovedPermanently } from '../src';
+import { isMovedPermanently } from '../../../src';
 
 describe('isMovedPermanently', () => {
   test('it should receive true when pass status 301', () => {

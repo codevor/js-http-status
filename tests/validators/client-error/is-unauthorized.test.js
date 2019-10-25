@@ -1,4 +1,4 @@
-import { isUnauthorized } from '../src';
+import { isUnauthorized } from '../../../src';
 
 describe('isMovedPermanently', () => {
   test('it should receive true when pass status 401', () => {

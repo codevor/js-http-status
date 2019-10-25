@@ -1,8 +1,8 @@
-import { validateHttpStatus } from '../src';
+import { validateHttpStatus } from '../../src';
 
 const STATUS_EXPECTED = 200;
 
-describe('validateHttpStatus', () => {
+describe('Validators: validateHttpStatus', () => {
   test('it should validate http status 200', () => {
     const received = validateHttpStatus(200, STATUS_EXPECTED);
     expect(received).toBeTruthy();
