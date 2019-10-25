@@ -23,8 +23,23 @@ export { default as isImUsed } from './success/is-im-used';
 
 // 3×× Redirection
 export {
+  default as isMultipleChoices
+} from './redirection/is-multiple-choices';
+export {
   default as isMovedPermanently
 } from './redirection/is-moved-permanently';
+export { default as isFound } from './redirection/is-found';
+export { default as isSeeOther } from './redirection/is-see-other';
+export { default as isNotModified } from './redirection/is-not-modified';
+export { default as isUseProxy } from './redirection/is-use-proxy';
+export {
+  default as isTemporaryRedirect
+} from './redirection/is-temporary-redirect';
+export {
+  default as isPermanentRedirect
+} from './redirection/is-permanent-redirect';
 
 // 4×× Client Error
 export { default as isUnauthorized } from './client-error/is-unauthorized';
+
+// 5×× Server Error
