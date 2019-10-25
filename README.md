@@ -68,6 +68,6 @@ Report bugs or do suggestions using the [issues](https://github.com/codevor/js-h
 [travis-url]: https://travis-ci.org/codevor/js-http-status
 [commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [commitizen-url]: http://commitizen.github.io/cz-cli/
-[npm-version-badge]: http://img.shields.io/npm/v/js-http-status.svg?style=flat
+[npm-version-badge]: https://badge.fury.io/js/js-http-status.svg
 [npm-url]: https://npmjs.org/package/js-http-status
 [npm-download-url]: https://img.shields.io/npm/dw/js-http-status
