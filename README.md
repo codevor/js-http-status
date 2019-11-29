@@ -14,8 +14,8 @@
 js-http-status is available on npm/yarn:
 
 ```bash
-$ npm install js-http-status --save
-$ yarn add js-http-status
+$ npm install @codevor/js-http-status --save
+$ yarn add @codevor/js-http-status
 ```
 
 ## Documentation
