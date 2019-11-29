@@ -1,7 +1,7 @@
 {
-  "name": "js-http-status",
+  "name": "@codevor/js-http-status",
   "version": "1.0.0",
-  "description": "[![License][license-badge]][license-url]",
+  "description": "🔍 A simple way to catch HTTP statuses with JavaScript.",
   "main": "dist/index",
   "scripts": {
     "commit": "git-cz",
