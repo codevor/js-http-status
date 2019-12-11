@@ -2,18 +2,22 @@
   "name": "@codevor/js-http-status",
   "version": "1.0.0",
   "description": "🔍 A simple way to catch HTTP statuses with JavaScript.",
-  "main": "dist/index",
+  "main": "dist/js-http-status.js",
+  "unpkg": "dist/js-http-status.min.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "commit": "git-cz",
     "clean": "rimraf dist",
     "dev": "NODE_ENV=dev webpack --progress --colors --watch",
-    "build": "NODE_ENV=production webpack",
+    "build:umd": "NODE_ENV=production webpack",
     "lint": "eslint src tests",
     "test": "jest --coverage --expand",
     "test:watch": "jest --watch",
-    "prepublish": "yarn lint && yarn test && yarn clean && yarn build",
     "coveralls": "cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
-    "generate-docs": "jsdoc --configure .jsdocrc"
+    "generate-docs": "jsdoc --configure .jsdocrc",
+    "prepublish": "yarn clean && yarn build:umd"
   },
   "repository": {
     "type": "git",
@@ -50,7 +54,7 @@
     "jest": "^24.9.0",
     "jsdoc": "^3.6.3",
     "rimraf": "^3.0.0",
-    "uglifyjs-webpack-plugin": "^2.2.0",
+    "terser-webpack-plugin": "^2.2.3",
     "webpack": "^4.41.1",
     "webpack-cli": "^3.3.9"
   },
