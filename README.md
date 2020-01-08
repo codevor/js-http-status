@@ -24,7 +24,7 @@ $ yarn add @codevor/js-http-status
 
 ## Usage
 
-Practice and learn [here](https://npm.runkit.com/js-http-status).
+Practice and learn [here](https://npm.runkit.com/%40codevor%2Fjs-http-status).
 
 With ES6/import
 
